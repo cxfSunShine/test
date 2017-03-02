@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 public class MyViewPagerAdapter extends PagerAdapter {
 
     private List<View> viewList;
-    private String[] titles = new String[]{"首页", "二页", "三页"};
+    private String[] titles = new String[]{"Wifi", "消息", "发现","我的"};
 
     public MyViewPagerAdapter(List<View> viewList) {
         this.viewList = viewList;
